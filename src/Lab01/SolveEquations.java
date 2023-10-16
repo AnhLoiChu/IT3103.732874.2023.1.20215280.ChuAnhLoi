@@ -3,7 +3,6 @@ package Lab01;
 import java.util.Scanner;
 import java.io.IOException;;
 
-
     public class SolveEquations {
 
         public static void main(String[] args) throws IOException {
@@ -71,9 +70,7 @@ import java.io.IOException;;
 
                             System.out.print("Enter b = ");
                             double b = keyboard.nextDouble();
-
                             double x = -b/a;
-
                             System.out.println("The solution is x = " + x);
 
                         } break;
@@ -115,10 +112,7 @@ import java.io.IOException;;
                         System.out.println("The equation has no solution");
                     }
                 }break;
-
             }
             keyboard.close();
-
         }
-
     }

@@ -5,15 +5,9 @@ public class NumberOfDays {
 
     public static void main(String[] args) {
 
-
-
-
         Scanner keyboard = new Scanner(System.in);
-
         System.out.print("Enter month: ");
-
         String input = keyboard.nextLine().toLowerCase();
-
         Map<String, Integer> months = new HashMap<>();
 
         // Map to numbers
@@ -72,19 +66,15 @@ public class NumberOfDays {
 
         System.out.print("Enter year: ");
         int yr = keyboard.nextInt();
-
         boolean leapyr = false;
         if ( yr%4 == 0 && yr%100 != 0 || yr%400 == 0 ) {
             leapyr = true;
         }
-
         keyboard.close();
-
         Map<Integer, Integer> noOfDays = new HashMap<>();
 
         // Map months to days
         noOfDays.put(1,31);
-
         if (leapyr) {
             noOfDays.put(2,29);
         } else {
@@ -100,11 +90,8 @@ public class NumberOfDays {
         noOfDays.put(10,31);
         noOfDays.put(11,30);
         noOfDays.put(12,31);
-
         Integer noDays = noOfDays.get(monthNum);
 
         System.out.println("The number of days is: " + noDays);
-
-
     }
 }

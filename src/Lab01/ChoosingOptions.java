@@ -2,9 +2,7 @@ package Lab01;
 
 import javax.swing.JOptionPane;
 
-
     public class ChoosingOptions {
-
         public static void main(String[] args) {
 
             int option = JOptionPane.showConfirmDialog(null,
@@ -13,8 +11,5 @@ import javax.swing.JOptionPane;
             JOptionPane.showMessageDialog(null, "You've chosen: "
                     + (option == JOptionPane.YES_OPTION?"Yes":"No"));
             System.exit(0);
-
-
         }
-
     }

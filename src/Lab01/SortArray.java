@@ -1,15 +1,11 @@
 package Lab01;
 import java.util.*;
-
-
 public class SortArray {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter number of elements: ");
         int elementsNumber = scanner.nextInt();
-
         double[] arr = new double[elementsNumber];
 
         // Input arrays
@@ -21,7 +17,6 @@ public class SortArray {
         System.out.print("Your input array is: " + Arrays.toString(arr));
         // Sort arrays
         Arrays.sort(arr);
-
         double sum = 0;
 
         for (double num : arr) {
@@ -33,9 +28,6 @@ public class SortArray {
         System.out.print("\nThe sorted array is: " + Arrays.toString(arr));
         System.out.print("\nSum of the array is: " + sum);
         System.out.print("\nAverage value of the array's elements is: " + avg);
-
-
         scanner.close();
     }
-
 }

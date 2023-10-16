@@ -1,7 +1,5 @@
 package Lab01;
 import java.util.*;
-
-
 public class AddMatrix {
 
     public static void main(String[] args) {
@@ -16,7 +14,6 @@ public class AddMatrix {
         double[][] mtA = new double[rows][columns];
         double[][] mtB = new double[rows][columns];
         double[][] resmt = new double[rows][columns];
-
 
         // Input matrix A
         for (int i = 0; i < rows; i++) {
