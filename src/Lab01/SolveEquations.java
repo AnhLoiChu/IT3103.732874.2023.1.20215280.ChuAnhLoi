@@ -2,7 +2,7 @@ package Lab01;
 
 import java.util.Scanner;
 
-public class SolveEquations {
+public class SolveEquations{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
