@@ -1,7 +1,7 @@
 package Lab01;
+
 import java.util.*;
 public class SortArray {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of elements: ");

@@ -1,8 +1,7 @@
 package Lab01;
+
 import java.util.*;
-
 public class NumberOfDays {
-
     public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);

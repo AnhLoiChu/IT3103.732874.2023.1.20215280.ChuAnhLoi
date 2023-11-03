@@ -1,4 +1,5 @@
 package Lab01;
+
 import java.util.*;
 public class Operations {
     public static void main(String[] args) {
