@@ -1,5 +1,5 @@
-package Lab02.test;
-import Lab02.disc.DigitalVideoDisc;
+package Lab02.AimsProjects.test;
+import Lab02.AimsProjects.disc.DigitalVideoDisc;
 
 public class TestPassingParameter {
 

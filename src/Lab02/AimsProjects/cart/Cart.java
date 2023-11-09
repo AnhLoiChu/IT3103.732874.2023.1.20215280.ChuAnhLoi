@@ -1,6 +1,6 @@
-package Lab02.cart;
+package Lab02.AimsProjects.cart;
 import java.lang.NullPointerException;
-import Lab02.disc.DigitalVideoDisc;
+import Lab02.AimsProjects.disc.DigitalVideoDisc;
 
 public class Cart {
     public static final int MAX_NUMBER_ORDERED = 20;

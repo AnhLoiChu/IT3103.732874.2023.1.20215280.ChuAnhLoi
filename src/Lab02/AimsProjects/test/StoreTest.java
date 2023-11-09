@@ -1,32 +1,35 @@
-package Lab02.test;
-import Lab02.disc.DigitalVideoDisc;
-import Lab02.cart.Cart;
-public class CartTest {
+package Lab02.AimsProjects.test;
+import Lab02.AimsProjects.store.Store;
+import Lab02.AimsProjects.disc.DigitalVideoDisc;
+
+public class StoreTest {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-
-
-        // Create a new cart
-        Cart cart = new Cart();
-
-        // Create new dvd objects and add them to the cart
+        Store store = new Store();
 
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",
                 "Animation", "Roger Allers", 87, 19.95f);
 
-        cart.addDigitalVideoDisc(dvd1);
+        store.addDVD(dvd1);
 
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars",
                 "Science Fiction", "George Lucas", 87, 24.95f);
-        cart.addDigitalVideoDisc(dvd2);
+
+        store.addDVD(dvd2);
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Animation",
                 "Aladin", 18.99f);
 
-        cart.addDigitalVideoDisc(dvd3);
-        System.out.println("Total Cost is: ");
-        System.out.println(Cart.totalCost());
+        store.addDVD(dvd3);
+
+        store.print();
+
+        store.removeDVD(dvd3);
+
+        store.print();
+
 
     }
+
 }
