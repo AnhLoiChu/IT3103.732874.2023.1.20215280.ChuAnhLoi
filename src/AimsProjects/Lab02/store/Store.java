@@ -1,6 +1,6 @@
-package Lab02.AimsProjects.store;
+package AimsProjects.Lab02.store;
 import java.lang.NullPointerException;
-import Lab02.AimsProjects.disc.DigitalVideoDisc;
+import AimsProjects.Lab02.disc.DigitalVideoDisc;
 public class Store {
     public static final int MAX_NUMBER_OF_DVDS = 100000;
     private DigitalVideoDisc[] itemsInStore = new DigitalVideoDisc[MAX_NUMBER_OF_DVDS];

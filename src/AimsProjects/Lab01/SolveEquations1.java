@@ -1,4 +1,4 @@
-package Lab01;
+package AimsProjects.Lab01;
 
 import java.util.Scanner;
 public class SolveEquations1{

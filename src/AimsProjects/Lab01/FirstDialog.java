@@ -1,4 +1,4 @@
-package Lab01;
+package AimsProjects.Lab01;
 
 import javax.swing.JOptionPane;
 public class FirstDialog {
