@@ -1,4 +1,4 @@
-package AimsProjects.Lab01;
+package Lab01;
 
 import javax.swing.JOptionPane;
     public class ChoosingOptions {

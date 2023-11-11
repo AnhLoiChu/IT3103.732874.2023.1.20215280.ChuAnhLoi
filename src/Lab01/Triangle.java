@@ -1,4 +1,4 @@
-package AimsProjects.Lab01;
+package Lab01;
 
 import java.util.Scanner;
 public class Triangle {

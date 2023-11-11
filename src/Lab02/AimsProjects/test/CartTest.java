@@ -1,6 +1,6 @@
-package AimsProjects.Lab02.test;
-import AimsProjects.Lab02.disc.DigitalVideoDisc;
-import AimsProjects.Lab02.cart.Cart;
+package Lab02.AimsProjects.test;
+import Lab02.AimsProjects.disc.DigitalVideoDisc;
+import Lab02.AimsProjects.cart.Cart;
 public class CartTest {
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package AimsProjects.Lab02.test;
-import AimsProjects.Lab02.store.Store;
-import AimsProjects.Lab02.disc.DigitalVideoDisc;
+package Lab02.AimsProjects.test;
+import Lab02.AimsProjects.store.Store;
+import Lab02.AimsProjects.disc.DigitalVideoDisc;
 
 public class StoreTest {
 
