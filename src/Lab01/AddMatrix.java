@@ -19,7 +19,7 @@ public class AddMatrix {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 System.out.print("A["+(i+1)+"]["+(j+1)+"] = ");
-                mtA[i][j] = scanner.nextDouble();
+                mtA[i][j] = scanner.nextDouble() ;
 
             }
         }
