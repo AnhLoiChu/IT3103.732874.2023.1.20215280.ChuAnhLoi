@@ -25,8 +25,10 @@ public class CartTest {
                 "Aladin", 18.99f);
 
         cart.addDigitalVideoDisc(dvd3);
-        System.out.println("Total Cost is: ");
-        System.out.println(Cart.totalCost());
+        cart.addDigitalVideoDisc(dvd3);
 
+
+        cart.print();
+        cart.searchForItem("The Lion King");
     }
 }

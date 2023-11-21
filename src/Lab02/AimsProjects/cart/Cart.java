@@ -4,10 +4,10 @@ import Lab02.AimsProjects.disc.DigitalVideoDisc;
 
 public class Cart {
     public static final int MAX_NUMBER_ORDERED = 20;
-    private static DigitalVideoDisc[] itemsOrdered =
+    private DigitalVideoDisc itemsOrdered[] =
             new DigitalVideoDisc[MAX_NUMBER_ORDERED];
 
-    private static int qtyOrdered;
+    private int qtyOrdered;
 
 
     // add a DVD to cart
@@ -52,7 +52,7 @@ public class Cart {
 
 
     // Calculate the total cost
-    public static float totalCost() {
+    public float totalCost() {
         float sum = 0.0f;
         for (int i = 0; i<qtyOrdered; i++) {
             sum+=itemsOrdered[i].getCost();
@@ -61,6 +61,27 @@ public class Cart {
 
 
     }
+
+    // add DVD to the cart by using a list
+
+	/*
+	public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+		for (DigitalVideoDisc disc: dvdList) {
+			if (qtyOrdered<MAX_NUMBER_ORDERED) {
+				itemsOrdered[qtyOrdered++] = disc;
+
+				System.out.println("The DVD has been added");
+
+			}
+			else{
+				System.out.println("The cart is almost full");
+
+			}
+
+		}
+	}
+	*/
+
 
     // Vararg add DVDs to cart
     public void addDigitalVideoDisc(DigitalVideoDisc ... discs) {
@@ -98,7 +119,9 @@ public class Cart {
         else{
             System.out.println("The cart is almost full");
 
+
         }
+
 
     }
 
@@ -205,6 +228,9 @@ public class Cart {
         }
     }
 }
+
+
+
 
 
 
